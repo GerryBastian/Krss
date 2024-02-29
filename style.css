@@ -1,0 +1,101 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9;
+    color: #333;
+}
+
+/* Container style */
+div.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header style */
+header {
+    background-color: #03396C;
+    border: 1px solid #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main style */
+main {
+    margin-top: 20px;
+}
+
+/* Table style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+
+th {
+    background-color: #03396C;
+    color: #fff;
+}
+
+/* Hyperlink style */
+a {
+    color: #007bff;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+a::after {
+    content: url('presensi.png');
+    display: inline-block;
+    max-width: 20px;
+    width: auto;
+    height: auto;
+    margin-left: 5px;
+}
+
+a::before {
+    content: "";
+}
+
+/* Paragraph style */
+p {
+    margin-bottom: 10px;
+}
+
+/* Alternating row color */
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Warna abu-abu untuk baris genap */
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff; /* Warna putih untuk baris ganjil */
+}
+/* Warning message style */
+.warning-message {
+    background-color: #03396C; /* Warna latar belakang kuning */
+    color: #ffffff; /* Warna teks */
+    border: 1px solid #000000; /* Garis pinggir */
+    padding: 15px; /* Ruang di dalam */
+    margin-bottom: 20px; /* Ruang di bawah */
+    border-radius: 5px; /* Sudut melengkung */
+    text-align: center; /* Teks rata tengah */
+    font-weight: bold; /* Teks tebal */
+}
